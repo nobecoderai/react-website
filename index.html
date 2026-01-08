@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Luxurious Cart | Premium Affiliate Deals</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -17,6 +18,54 @@
         
         /* Modern UI transitions */
         .transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+=======
+    <title>Luxurious Cart | Premium Shopping Experience</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='10' fill='%23f57224'/><path d='M6 8h4l2 10h10l2-6H12' stroke='white' stroke-width='2.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/><circle cx='13' cy='24' r='2' fill='white'/><circle cx='21' cy='24' r='2' fill='white'/><path d='M24 5l0.8 1.6 1.6 0.8-1.6 0.8-0.8 1.6-0.8-1.6-1.6-0.8 1.6-0.8z' fill='white'/></svg>">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'daraz-orange': '#f57224',
+              'daraz-navy': '#2e2e54',
+              'daraz-bg': '#eff0f5',
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        :root {
+            --lux-main: #f57224;
+        }
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #eff0f5; 
+            color: #212121; 
+            margin: 0; 
+            overflow-x: hidden;
+        }
+        .text-lux-orange { color: var(--lux-main); }
+        .bg-lux-orange { background-color: var(--lux-main); }
+        
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        .line-clamp-2 { 
+            display: -webkit-box; 
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical; 
+            overflow: hidden; 
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in { animation: fadeIn 0.4s ease-out forwards; }
+>>>>>>> 85caeb118342bd94733004b4ae83c1dc76e65192
     </style>
 <script type="importmap">
 {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import { Plus, Trash2, Edit2, LayoutDashboard, Package, Image as ImageIcon, X, ImagePlus, LogOut } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
@@ -223,4 +224,7 @@ const Admin: React.FC = () => {
   );
 };
 
+=======
+import Admin from './views/Admin.tsx';
+>>>>>>> 85caeb118342bd94733004b4ae83c1dc76e65192
 export default Admin;
